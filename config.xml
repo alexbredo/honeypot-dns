@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<appconfig>
+	<list name="ipv4_fixed">
+		<str>192.168.1.2</str>
+	</list>
+	<dict name="enabled_handlers">
+		<bool name="screen">True</bool>
+		<bool name="elasticsearch">True</bool>
+		<bool name="file">True</bool>
+	</dict>
+	<str name="domain">services.example.com</str>
+	<str name="filename">honeypot_output.txt</str>
+	<dict name="elasticsearch">
+		<str name="index">honeypot</str>
+		<str name="host">lnx06-elasticsearch1</str>
+		<int name="port">9200</int>
+	</dict>
+	<str name="mode">random</str>
+	<int name="port">53</int>
+	<list name="ipv6_fixed">
+		<str>::1</str>
+	</list>
+</appconfig>

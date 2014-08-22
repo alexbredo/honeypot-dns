@@ -1,0 +1,3 @@
+[submodule "site-packages3"]
+	path = site-packages3
+	url = https://github.com/alexbredo/site-packages3.git
